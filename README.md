@@ -17,7 +17,7 @@ You can then replace the occurences of "Demo" inside the codebase with the name 
 
 ## What's in it?
 
-Running the base command with `go run cmd/demo/main.go`                                                                                        ✔ │ 17:58:26 
+Running the base command with `go run cmd/demo/main.go`
 
 ```
 demo is boilerplate code for building your next go cli
