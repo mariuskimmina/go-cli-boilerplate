@@ -20,13 +20,13 @@ func NewDefaultDemoCommand() *cobra.Command {
 }
 
 func NewDefaultDemoCommandWithArgs(o DemoOptions) *cobra.Command {
-	cmd := NewGaCommand(o)
+	cmd := NewDemoCommand(o)
 
 	return cmd
 
 }
 
-func NewGaCommand(o DemoOptions) *cobra.Command {
+func NewDemoCommand(o DemoOptions) *cobra.Command {
 	cmds := &cobra.Command{
 		Use:   "demo",
 		Short: "demo is boilerplate code for building your next go cli",
