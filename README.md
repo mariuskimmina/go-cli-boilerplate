@@ -1,6 +1,6 @@
 # Go CLI Boilerplate
 
-This project can be used a baseline to build your next go cli project. The code structure is based on `kubectl` by Kubernetes.
+This project can be used as a baseline to build your next go cli project. The code structure is based on `kubectl` by Kubernetes.
 
 
 ## Usage
